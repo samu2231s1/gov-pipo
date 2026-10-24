@@ -1,0 +1,36 @@
+{
+  "url": "http://127.0.0.1:8080/documento",
+  "viewports": {
+    "desktop": {
+      "width": 1280,
+      "height": 800,
+      "status": 200,
+      "title": "gov.br",
+      "hasCanvas": false,
+      "bodyTextLen": 310,
+      "bodyTextHash": "5506b71d73460979790b1ce1903b0a4635b477ec1a5b0d2aad7477b26a82b754",
+      "bodyTextPrefix": "DOCUMENTO DE IDENTIFICAÇÃO Este documento digital pode ser utili",
+      "horizontalOverflow": false,
+      "consoleErrors": [],
+      "pageErrors": [],
+      "screenshot": "/workspace/screenshots/app-builder-preview.png"
+    },
+    "mobile": {
+      "width": 390,
+      "height": 844,
+      "status": 200,
+      "title": "gov.br",
+      "hasCanvas": false,
+      "bodyTextLen": 310,
+      "bodyTextHash": "5506b71d73460979790b1ce1903b0a4635b477ec1a5b0d2aad7477b26a82b754",
+      "bodyTextPrefix": "DOCUMENTO DE IDENTIFICAÇÃO Este documento digital pode ser utili",
+      "horizontalOverflow": false,
+      "consoleErrors": [],
+      "pageErrors": [],
+      "screenshot": "/workspace/screenshots/app-builder-preview-mobile.png"
+    }
+  },
+  "brandWarnings": [],
+  "authWarnings": [],
+  "verdictFile": "/workspace/screenshots/app-builder-preview.json"
+}

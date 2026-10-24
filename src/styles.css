@@ -1,0 +1,33 @@
+@import "tailwindcss";
+
+@theme inline {
+  --color-gov-blue: #1351b4;
+  --color-gov-navy: #071d41;
+  --color-gov-bright: #155bcb;
+  --color-gov-green: #168821;
+  --color-gov-gray: #f8f8f8;
+  --color-gov-muted: #888888;
+  --font-gov: "Rawline", "Raleway", system-ui, sans-serif;
+}
+
+@layer base {
+  button:not(:disabled),
+  [role="button"]:not(:disabled) {
+    cursor: pointer;
+  }
+  html, body, #root { margin: 0; min-height: 100%; background: #ffffff; }
+  html {
+    touch-action: manipulation;
+    -webkit-text-size-adjust: 100%;
+  }
+  body { background: #ffffff; font-family: var(--font-gov); overflow-x: hidden; }
+  img { max-width: 100%; }
+}
+
+@keyframes sheet-in {
+  from { transform: translateX(100%); }
+  to { transform: translateX(0); }
+}
+@keyframes spin-arc {
+  to { transform: rotate(360deg); }
+}
